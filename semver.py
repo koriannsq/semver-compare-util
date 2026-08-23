@@ -1,0 +1,1 @@
+def is_newer(v1, v2): return tuple(map(int, v1.split('.'))) > tuple(map(int, v2.split('.')))
